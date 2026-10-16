@@ -9,4 +9,12 @@
    HTTP/1.1 404 NOT FOUND
 4) https://github.com/mshy203/HTTP-Explorer
    DevTools
-   
+   GET
+   200 OK (from disk cache)
+5)curl -i https://jsonplaceholder.typicode.com/posts/1
+  Terminal
+  HTTP/1.1 200 OK
+6)curl -i "https://jsonplaceholder.typicode.com/posts?userId=2"
+  Terminal
+  HTTP/1.1 200 OK
+
