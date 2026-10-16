@@ -1,0 +1,12 @@
+1) curl.exe -i https://github.com/mshy203/HTTP-Explorer
+   Terminal 
+   HTTP/1.1 200 OK
+2) curl.exe -v https://github.com/mshy203/HTTP-Explorer
+   Terminal 
+   HTTP/1.1 200 OK
+3) curl.exe -i https://httpbin.org/status/404
+   Terminal
+   HTTP/1.1 404 NOT FOUND
+4) https://github.com/mshy203/HTTP-Explorer
+   DevTools
+   
